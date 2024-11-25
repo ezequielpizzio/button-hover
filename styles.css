@@ -1,0 +1,50 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+button {
+    border-radius: 5px;
+    border-color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px rgb(0, 0, 0.295);
+    padding: 20px 50px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow:  2px 5px rgba(0, 0, 0, 0.295);
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+button {
+    transition: transform .3s ease-in-out;
+  }
+
+button:hover {
+    transform: scale(1.2);
+    
+}
